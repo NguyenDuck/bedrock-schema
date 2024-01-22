@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"lib": ["ESNext"],
+		"skipLibCheck": true,
+		"rootDir": "src",
+		"outDir": "dist",
+		"strict": true,
+		"resolveJsonModule": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"name": "bedrock-schema",
+	"version": "0.0.1",
+	"description": "Dynamic json schema system for vsc-bedrock-addon",
+	"main": "dist/main.js",
+	"scripts": {
+		"watch": "tsc -watch -p tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NguyenDuck/bedrock-schema.git"
+	},
+	"keywords": [
+		"minecraft",
+		"bedrock",
+		"addon",
+		"json",
+		"schema"
+	],
+	"author": "NguyenDuck",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/NguyenDuck/bedrock-schema/issues"
+	},
+	"homepage": "https://github.com/NguyenDuck/bedrock-schema#readme",
+	"devDependencies": {
+		"@types/node": "^20.11.5"
+	},
+	"dependencies": {
+		"@tsed/logger": "^6.6.3",
+		"@types/vscode": "^1.85.0"
+	}
+}

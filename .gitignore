@@ -1,0 +1,4 @@
+# Compiled extension
+dist/
+# Node modules
+node_modules/
